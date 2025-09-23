@@ -10,21 +10,25 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* ------ Header Section ------ */
+
 .placeholder {
     background-color: #E5E7EB;
-    height: 100px;
-    width: 300px;
+    height: 150px;
+    width: 500px;
 }
 .logo-left {
     color: #f9faf8;
-    font-size: ;
+    font-size: 24px;
 }
 .hero-text h1 {
     color: #f9faf8;
+    font-size: 48px;
     font-weight: 900;
 }
 .nav-links, .hero-secondary-text {
     color: #E5E7EB;
+    font-size: 18px;
 }
 .hero-button {
     color: #f9faf8;
@@ -33,31 +37,87 @@ body {
     border-radius: 5px;
     border-style: none;
     margin-top: 10px;
-
 }
 
  header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
     margin: 15px 100px;
-
-}
-
-.hero-container {
-    display: flex;
-    /* justify-content: center; */
-    margin: 50px 100px;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
+    gap: 16px;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 50px 100px 100px;
+}
+
+/* ------ Random Info Section ------ */
+
+.random-info-heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    color:  #1F2937;
+    font-weight: 900;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-block {
+    max-width: 120px;
+    /* text-align: center; */
+}
+
+.img-block img {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.img-caption {
+    text-align: center;
+    color: ;
+}
+
+/* ------ Quote Section ------ */
+
+.quote-container {
+    background-color: #E5E7EB;
+    margin: 100px 0px;
+}
+
+blockquote > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 50px 200px;
+}
+
+.citation {
+    display: block;
+    text-align: right;
+    font-weight: 700;
+    font-style: normal;
+}
