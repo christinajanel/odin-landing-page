@@ -12,6 +12,12 @@ body {
 
 /* ------ Header Section ------ */
 
+ header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
 .placeholder {
     background-color: #E5E7EB;
     height: 150px;
@@ -21,7 +27,7 @@ body {
     color: #f9faf8;
     font-size: 24px;
 }
-.hero-text h1 {
+.hero-text > h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
@@ -37,12 +43,6 @@ body {
     border-radius: 5px;
     border-style: none;
     margin-top: 10px;
-}
-
- header {
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
 }
 
 .top-header {
@@ -119,4 +119,39 @@ blockquote > p {
     text-align: right;
     font-weight: 700;
     font-style: normal;
+}
+
+/* ------- Call to Action Section ------ */
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 600px; */
+    background-color: #3882f6;
+    padding: 20px 40px;
+    margin:  0px 200px;
+    border-radius: 8px;
+
+}
+
+.action-title {
+    font-weight: 700;
+}
+
+.action-text {
+    color: #f9faf8;
+    padding: 10px 30px;
+
+}
+.action-subtext {
+
+}
+
+.action-button {
+    color: white;
+    border: 2px solid white; 
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 5px 8px;
+
 }
