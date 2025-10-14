@@ -12,7 +12,6 @@ body {
 }
 
 /* ------ Header Section ------ */
-
  header {
     display: flex;
     flex-direction: column;
@@ -23,23 +22,28 @@ a {
     color: #f9faf8;
     text-decoration: none;
 }
+
 .placeholder {
     background-color: #969ca8;
     width: 500px;
 }
+
 .logo-left {
     color: #f9faf8;
     font-size: 24px;
 }
+
 .hero-text > h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
 }
+
 .nav-links, .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
 }
+
 .hero-button {
     color: #f9faf8;
     background-color: #3882f6;
@@ -70,7 +74,6 @@ a {
 }
 
 /* ------ Random Info Section ------ */
-
 .random-info-heading {
     text-align: center;
     padding: 30px;
@@ -87,7 +90,6 @@ a {
 
 .img-block {
     max-width: 120px;
-    /* text-align: center; */
 }
 
 .img-block img {
@@ -101,10 +103,10 @@ a {
 
 .img-caption {
     text-align: center;
+    margin-top: 8px;
 }
 
 /* ------ Quote Section ------ */
-
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -130,16 +132,12 @@ blockquote > p {
 }
 
 /* ------- Call to Action Section ------ */
-
 .call-to-action-container {
     display: flex;
-    /* justify-content: space-between; */
-    /* max-width: 600px; */
     background-color: #3882f6;
     padding: 20px 40px;
     margin:  90px 150px;
     border-radius: 8px;
-
 }
 
 .action-title {
