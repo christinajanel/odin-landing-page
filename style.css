@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body {
@@ -102,6 +103,8 @@ body {
 /* ------ Quote Section ------ */
 
 .quote-container {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     margin: 100px 0px;
 }
@@ -111,14 +114,15 @@ blockquote > p {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    padding: 50px 200px;
+    padding: 10px 200px;
 }
 
 .citation {
-    display: block;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     font-weight: 700;
     font-style: normal;
+    padding: 0px 200px;
 }
 
 /* ------- Call to Action Section ------ */
@@ -141,9 +145,6 @@ blockquote > p {
 .action-text {
     color: #f9faf8;
     padding: 10px 30px;
-
-}
-.action-subtext {
 
 }
 
