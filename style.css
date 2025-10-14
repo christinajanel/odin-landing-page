@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -19,9 +19,13 @@ body {
     background-color: #1F2937;
 }
 
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
 .placeholder {
-    background-color: #E5E7EB;
-    height: 150px;
+    background-color: #969ca8;
+    /* height: 150px; */
     width: 500px;
 }
 .logo-left {
@@ -107,6 +111,7 @@ body {
     flex-direction: column;
     background-color: #E5E7EB;
     margin: 100px 0px;
+    padding: 100px 0px;
 }
 
 blockquote > p {
@@ -129,7 +134,7 @@ blockquote > p {
 
 .call-to-action-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* max-width: 600px; */
     background-color: #3882f6;
     padding: 20px 40px;
@@ -145,7 +150,13 @@ blockquote > p {
 .action-text {
     color: #f9faf8;
     padding: 10px 30px;
+    margin-right: auto;
+}
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action-button {   
