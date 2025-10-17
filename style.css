@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding-bottom: 50px;
 }
 
 a {
@@ -25,7 +26,8 @@ a {
 
 .placeholder {
     background-color: #969ca8;
-    width: 500px;
+    width: 545px;
+    height: 250px;
 }
 
 .logo-left {
@@ -46,8 +48,9 @@ a {
 
 .hero-button {
     color: #f9faf8;
+    font-size: 18px;
     background-color: #3882f6;
-    padding: 5px 20px;
+    padding: 8px 25px;
     border-radius: 5px;
     border-style: none;
     margin-top: 10px;
@@ -56,7 +59,7 @@ a {
 .top-header {
     display: flex;
     justify-content: space-between;
-    margin: 15px 100px;
+    margin: 20px 200px;
 }
 
 .nav-links {
@@ -70,7 +73,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 45px;
-    margin: 50px 100px 100px;
+    margin: 90px 200px 100px;
 }
 
 /* ------ Random Info Section ------ */
@@ -85,23 +88,25 @@ a {
 .gallery-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
+    margin-top: 20px;
 }
 
 .img-block {
-    max-width: 120px;
+    max-width: 160px;
 }
 
 .img-block img {
     display: flex;
     justify-content: center;
-    height: 120px;
-    width: 120px;
+    height: 160px;
+    width: 160px;
     border: 3px solid #3882f6;
     border-radius: 8px;
 }
 
 .img-caption {
+    color: #707073;
     text-align: center;
     margin-top: 8px;
 }
@@ -120,28 +125,41 @@ blockquote > p {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    padding: 10px 200px;
+    padding: 10px 300px;
 }
 
 .citation {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 22px;
     font-weight: 700;
-    font-style: normal;
     padding: 0px 200px;
+    margin-right: 150px;
+}
+
+cite {
+    font-style: normal;
 }
 
 /* ------- Call to Action Section ------ */
 .call-to-action-container {
     display: flex;
     background-color: #3882f6;
-    padding: 20px 40px;
-    margin:  90px 150px;
+    padding: 40px 60px;
+    margin:  90px 200px;
     border-radius: 8px;
 }
 
 .action-title {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.action-subtext {
+    font-size: 18px;
+    font-weight: 200;
+
 }
 
 .action-text {
@@ -157,20 +175,24 @@ blockquote > p {
 }
 
 .action-button {   
+    flex-shrink: 0;
     color: white;
+    font-size: 20px;
     border: 2px solid white; 
     border-radius: 5px;
     background-color: #3882f6;
     padding: 5px 20px;
+    margin-right: 70px;
 }
 
 /* ------ Footer Section ------ */
 .footer {
     display: flex;
     color: #f9faf8;
+    font-weight: 300;
     background-color: #1F2937;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
